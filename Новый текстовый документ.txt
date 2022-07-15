@@ -1,173 +1,173 @@
 {
-	editor.renderWhitespace all,
-	editor.tabSize 3,
-	editor.comments.insertSpace false,
-	editor.detectIndentation false,
-	editor.hover.enabled false,
-	editor.mouseWheelZoom true,
-	workbench.editor.closeEmptyGroups false,
-	editor.insertSpaces false,
-	explorer.confirmDelete false,
-	explorer.confirmDragAndDrop false,
-	workbench.editorAssociations {
-		.ipynb jupyter-notebook
+	"editor.renderWhitespace": "all",
+	"editor.tabSize": 3,
+	"editor.comments.insertSpace": false,
+	"editor.detectIndentation": false,
+	"editor.hover.enabled": false,
+	"editor.mouseWheelZoom": true,
+	"workbench.editor.closeEmptyGroups": false,
+	"editor.insertSpaces": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook"
 	},
-	security.workspace.trust.untrustedFiles open,
-	workbench.sideBar.location right,
-	files.associations {
-		.php php
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.sideBar.location": "right",
+	"files.associations": {
+		"*.php": "php"
 	},
-	workbench.editor.untitled.hint hidden,
-	notebook.cellToolbarLocation {
-		default right,
-		jupyter-notebook left
+	"workbench.editor.untitled.hint": "hidden",
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
 	},
-	editor.fontSize 17,
-	liveSassCompile.settings.generateMap false,
-	liveSassCompile.settings.formats [
+	"editor.fontSize": 17,
+	"liveSassCompile.settings.generateMap": false,
+	//"liveSassCompile.settings.formats": [
+	//	{
+	//		"format": "expanded",
+	//		"autoprefix": "last 5 versions",
+	//		"extensionName": ".css",
+	//		"savePath": "css",
+	//	}
+	//],
+	"better-comments.tags": [
 		{
-			format expanded,
-			autoprefix last 5 versions,
-			extensionName .css,
-			savePath css,
+			"tag": "!",
+			"color": "#F00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "TODO",
+			"color": "#F50",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "$",
+			"color": "#FF0",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "---",
+			"color": "#9DE131",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": ">",
+			"color": "#2b2",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "**",
+			"color": "#1D884F",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#20B2AA",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "^",
+			"color": "#309FE3",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "%",
+			"color": "#E13E82",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "&",
+			"color": "#CE54E1",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
 		}
+		//{
+		//	"tag": "",
+		//	"color": "",
+		//	"strikethrough": false,
+		//	"underline": false,
+		//	"backgroundColor": "transparent",
+		//	"bold": false,
+		//	"italic": false
+		//},
+		//{
+		//	"tag": "",
+		//	"color": "",
+		//	"strikethrough": false,
+		//	"underline": false,
+		//	"backgroundColor": "transparent",
+		//	"bold": false,
+		//	"italic": false
+		//},
+		//{
+		//	"tag": "",
+		//	"color": "",
+		//	"strikethrough": false,
+		//	"underline": false,
+		//	"backgroundColor": "transparent",
+		//	"bold": false,
+		//	"italic": false
+		//},
 	],
-	better-comments.tags [
-		{
-			tag !,
-			color #F00,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag TODO,
-			color #F50,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag $,
-			color #FF0,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag ---,
-			color #9DE131,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag ,
-			color #2b2,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag ,
-			color #1D884F,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag ,
-			color #20B2AA,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag ^,
-			color #309FE3,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag %,
-			color #E13E82,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag &,
-			color #CE54E1,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		}
-		{
-			tag ,
-			color ,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag ,
-			color ,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-		{
-			tag ,
-			color ,
-			strikethrough false,
-			underline false,
-			backgroundColor transparent,
-			bold false,
-			italic false
-		},
-	],
-	workbench.editor.labelFormat short,
-	editor.formatOnType true,
-	editor.formatOnSave true,
-	editor.formatOnPaste true,
-	editor.defaultFormatter esbenp.prettier-vscode,
-	[javascript] {
-		editor.defaultFormatter esbenp.prettier-vscode
+	"workbench.editor.labelFormat": "short",
+	"editor.formatOnType": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	//"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	prettier.useTabs true,
-	prettier.singleQuote true,
-	prettier.printWidth 120,
-	files.autoSave afterDelay,
-	prettier.jsxSingleQuote true,
-	prettier.tabWidth 3,
-	breadcrumbs.enabled false,
-	workbench.colorTheme Space Ocean Kit Refined,
-	editor.defaultFormatter esbenp.prettier-vscode,
-	editor.unicodeHighlight.nonBasicASCII false,
-	liveServer.settings.donotShowInfoMsg true
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.printWidth": 120,
+	"files.autoSave": "afterDelay",
+	"prettier.jsxSingleQuote": true,
+	"prettier.tabWidth": 3,
+	"breadcrumbs.enabled": false,
+	"workbench.colorTheme": "Space Ocean Kit Refined",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	"liveServer.settings.donotShowInfoMsg": true
 }
