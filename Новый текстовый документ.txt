@@ -36,47 +36,47 @@
 		{
 			"tag": "!",
 			"color": "#F00",
-			"strikethrough": false,
-			"underline": false,
+			"strikethrough": true,
+			"underline": true,
 			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
+			"bold": true,
+			"italic": true
 		},
 		{
 			"tag": "TODO",
 			"color": "#F50",
-			"strikethrough": false,
-			"underline": false,
+			"strikethrough": true,
+			"underline": true,
 			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
+			"bold": true,
+			"italic": true
 		},
 		{
 			"tag": "$",
 			"color": "#FF0",
-			"strikethrough": false,
-			"underline": false,
+			"strikethrough": true,
+			"underline": true,
 			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
+			"bold": true,
+			"italic": true
 		},
 		{
 			"tag": "---",
 			"color": "#9DE131",
-			"strikethrough": false,
-			"underline": false,
+			"strikethrough": true,
+			"underline": true,
 			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
+			"bold": true,
+			"italic": true
 		},
 		{
 			"tag": ">",
 			"color": "#2b2",
-			"strikethrough": false,
-			"underline": false,
+			"strikethrough": true,
+			"underline": true,
 			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
+			"bold": true,
+			"italic": true
 		},
 		{
 			"tag": "**",
@@ -99,29 +99,29 @@
 		{
 			"tag": "^",
 			"color": "#309FE3",
-			"strikethrough": false,
-			"underline": false,
+			"strikethrough": true,
+			"underline": true,
 			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
+			"bold": true,
+			"italic": true
 		},
 		{
 			"tag": "%",
 			"color": "#E13E82",
-			"strikethrough": false,
-			"underline": false,
+			"strikethrough": true,
+			"underline": true,
 			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
+			"bold": true,
+			"italic": true
 		},
 		{
 			"tag": "&",
 			"color": "#CE54E1",
-			"strikethrough": false,
-			"underline": false,
+			"strikethrough": true,
+			"underline": true,
 			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
+			"bold": true,
+			"italic": true
 		}
 		//{
 		//	"tag": "",
